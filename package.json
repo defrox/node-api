@@ -8,12 +8,17 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Chris Sevilleja <scotch.io>",
+  "author": "defrox",
   "license": "MIT",
   "dependencies": {
-    "express": "~4.0.0",
-    "morgan": "~1.0.0",
-    "mongoose" : "~4.6.8",
-    "body-parser": "~1.0.1"
+    "assert": "^1.4.1",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb-stitch": "0.0.25",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2",
+    "mpromise": "^0.5.5",
+    "q-promise": "^1.0.0"
   }
 }
